@@ -1,0 +1,166 @@
+html {
+    font-size: 15px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1030px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/*Page
+==================================*/
+
+.page {
+    width: 100%;
+    min-height: 770px;
+    position: relative;
+    overflow: hidden;
+
+    background-color: white;
+}
+
+
+/*header
+==================================*/
+
+.header {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 165px;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.title {
+    width: 50%;
+    height: 175px;
+    margin: 0;
+    padding: 70px 0;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+    background-color: #00aeef;
+}
+
+/*Challenge
+==================================*/
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.text {
+    width: 50%;
+    height: 281px;
+    padding: 25px 10px 10px 10px;
+    background-color: #00aeef;
+
+    text-align: justify;
+    color: white;
+}
+
+.text h1 {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.goals {
+    width: 50%;
+    height: 281px;
+    padding: 10px;
+    background-color: white;
+
+    text-align: justify;
+    color: #434c5d;
+}
+
+.goals h1 {
+    font-weight: 500;
+    font-size: 25px;
+    color: #00aeef;
+}
+
+.goals h3 {
+    font-size: 10px;
+    color: #00aeef;
+}
+
+/*Inspiration
+==================================*/
+.Inspiration {
+    padding: 10px;
+    width: 100%;
+    height: 150px;
+    background-color: white;
+}
+
+.Inspiration h1 {
+    font-weight: 500;
+    font-size: 25px;
+    color: #00aeef;
+}
+
+.Inspiration p {
+    margin: 0;
+    text-align: justify;
+    color: #434c5d;
+}
+
+/*Growth
+==================================*/
+
+.Growth {
+    padding: 10px;
+    width: 50%;
+    background-color: white;
+}
+
+.Growth h1 {
+    font-weight: 500;
+    font-size: 25px;
+    color: #00aeef;
+}
+
+.Growth li {
+    color: #434c5d;
+    text-align: justify;
+}
+
+.Growth b {
+    color: #00aeef;
+    font-size: 1.2rem;
+}
+
+
+
